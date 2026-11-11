@@ -42,6 +42,9 @@ and that you are each able to create a new user and log in.
 > Note: you may need to set the Project SDK in the `Project Structure...` menu, and possibly
 > also manually link the Maven project if the app won't run when you try to run Main.
 
+1. use cases right now: signup, login, change password; view: login, signup, loggedin
+2. signup: signup use cases; login: login use case; logged in: change password use case.
+3. The app uses FileUserDataAccessObject for data persistence. It stores user data locally in a CSV file called users.csv.
 ### Task 1.1: Tracing the Login Use Case
 
 Before implementing the logout use case, your TA will demonstrate the execution of the login
